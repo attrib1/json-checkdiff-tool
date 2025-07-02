@@ -1,0 +1,546 @@
+[
+    {
+      "aci": "Document.PmtRtr",
+      "bulk2024": "RootTxn"
+    },
+    {
+      "aci": "Document.PmtRtr.GrpHdr.CreDtTm",
+      "bulk2024": "TxnsHeader.AdditionalData.CreateTimestamp"
+    },
+    {
+      "aci": "Document.PmtRtr.GrpHdr.IntrBkSttlmDt",
+      "bulk2024": "TxnsHeader.EffectiveDate"
+    },
+    {
+      "aci": "Document.PmtRtr.GrpHdr.MsgId",
+      "bulk2024": "TxnsHeader.AdditionalData.MsgId"
+    },
+    {
+      "aci": "Document.PmtRtr.GrpHdr.NbOfTxs",
+      "bulk2024": "TxnsHeader.TotalTxn"
+    },
+    {
+      "aci": "Document.PmtRtr.GrpHdr.SttlmInf.ClrSys.Cd",
+      "bulk2024": "TxnsHeader.AdditionalData.ClearingSystemCode"
+    },
+    {
+      "aci": "Document.PmtRtr.GrpHdr.SttlmInf.SttlmMtd",
+      "bulk2024": "TxnsHeader.AdditionalData.SettlementMethod"
+    },
+    {
+      "aci": "Document.PmtRtr.GrpHdr.TtlRtrdIntrBkSttlmAmt",
+      "bulk2024": "TxnsHeader.TotalAmount"
+    },
+    {
+      "aci": "Document.PmtRtr.SplmtryData",
+      "bulk2024": "TxnsHeader.AdditionalData.SupplementaryData"
+    },
+    {
+      "aci": "Document.PmtRtr.SplmtryData.0.Envlp",
+      "bulk2024": "Envelope"
+    },
+    {
+      "aci": "Document.PmtRtr.SplmtryData.0.PlcAndNm",
+      "bulk2024": "PlaceAndName"
+    },
+    {
+      "aci": "Document.PmtRtr.TxInf",
+      "bulk2024": "Txns"
+    },
+    {
+      "aci": "Document.PmtRtr.TxInf.0.OrgnlClrSysRef",
+      "bulk2024": "AdditionalData.PaymentRef"
+    },
+    {
+      "aci": "Document.PmtRtr.TxInf.0.OrgnlEndToEndId",
+      "bulk2024": "AdditionalData.EndToEndId"
+    },
+    {
+      "aci": "Document.PmtRtr.TxInf.0.OrgnlGrpInf.OrgnlCreDtTm",
+      "bulk2024": "AdditionalData.Original.CreateTimestamp"
+    },
+    {
+      "aci": "Document.PmtRtr.TxInf.0.OrgnlGrpInf.OrgnlMsgId",
+      "bulk2024": "AdditionalData.Original.MsgId"
+    },
+    {
+      "aci": "Document.PmtRtr.TxInf.0.OrgnlInstrId",
+      "bulk2024": "AdditionalData.InstructionId"
+    },
+    {
+      "aci": "Document.PmtRtr.TxInf.0.OrgnlIntrBkSttlmAmt",
+      "bulk2024": "AdditionalData.Original.Amount"
+    },
+    {
+      "aci": "Document.PmtRtr.TxInf.0.OrgnlIntrBkSttlmDt",
+      "bulk2024": "AdditionalData.EffectiveDate"
+    },
+    {
+      "aci": "Document.PmtRtr.TxInf.0.OrgnlTxId",
+      "bulk2024": "AdditionalData.TransactionId"
+    },
+    {
+      "aci": "Document.PmtRtr.TxInf.0.OrgnlTxRef.Amt.InstdAmt",
+      "bulk2024": "AdditionalData.InstructedAmount"
+    },
+    {
+      "aci": "Document.PmtRtr.TxInf.0.OrgnlTxRef.Cdtr.Pty.Id.OrgId.Othr.Id",
+      "bulk2024": "AdditionalData.Receiver.Org.Id"
+    },
+    {
+      "aci": "Document.PmtRtr.TxInf.0.OrgnlTxRef.Cdtr.Pty.Id.OrgId.Othr.SchmeNm.Cd",
+      "bulk2024": "AdditionalData.Receiver.Org.SchemeName"
+    },
+    {
+      "aci": "Document.PmtRtr.TxInf.0.OrgnlTxRef.Cdtr.Pty.Id.PrvtId.Othr.Id",
+      "bulk2024": "AdditionalData.Receiver.Private.Id"
+    },
+    {
+      "aci": "Document.PmtRtr.TxInf.0.OrgnlTxRef.Cdtr.Pty.Id.PrvtId.Othr.SchmeNm.Cd",
+      "bulk2024": "AdditionalData.Receiver.Private.SchemeName"
+    },
+    {
+      "aci": "Document.PmtRtr.TxInf.0.OrgnlTxRef.Cdtr.Pty.Nm",
+      "bulk2024": "AdditionalData.Receiver.Name"
+    },
+    {
+      "aci": "Document.PmtRtr.TxInf.0.OrgnlTxRef.Cdtr.Pty.PstlAdr.AdrLine",
+      "bulk2024": "AdditionalData.Receiver.Address.AddressLine"
+    },
+    {
+      "aci": "Document.PmtRtr.TxInf.0.OrgnlTxRef.Cdtr.Pty.PstlAdr.AdrTp.Cd",
+      "bulk2024": "AdditionalData.Receiver.Address.Type"
+    },
+    {
+      "aci": "Document.PmtRtr.TxInf.0.OrgnlTxRef.Cdtr.Pty.PstlAdr.BldgNb",
+      "bulk2024": "AdditionalData.Receiver.Address.BuildingNumber"
+    },
+    {
+      "aci": "Document.PmtRtr.TxInf.0.OrgnlTxRef.Cdtr.Pty.PstlAdr.BldgNm",
+      "bulk2024": "AdditionalData.Receiver.Address.BuildingName"
+    },
+    {
+      "aci": "Document.PmtRtr.TxInf.0.OrgnlTxRef.Cdtr.Pty.PstlAdr.Ctry",
+      "bulk2024": "AdditionalData.Receiver.Address.Country"
+    },
+    {
+      "aci": "Document.PmtRtr.TxInf.0.OrgnlTxRef.Cdtr.Pty.PstlAdr.CtrySubDvsn",
+      "bulk2024": "AdditionalData.Receiver.Address.SubCountryDiv"
+    },
+    {
+      "aci": "Document.PmtRtr.TxInf.0.OrgnlTxRef.Cdtr.Pty.PstlAdr.Dept",
+      "bulk2024": "AdditionalData.Receiver.Address.Department"
+    },
+    {
+      "aci": "Document.PmtRtr.TxInf.0.OrgnlTxRef.Cdtr.Pty.PstlAdr.DstrctNm",
+      "bulk2024": "AdditionalData.Receiver.Address.District"
+    },
+    {
+      "aci": "Document.PmtRtr.TxInf.0.OrgnlTxRef.Cdtr.Pty.PstlAdr.Flr",
+      "bulk2024": "AdditionalData.Receiver.Address.Floor"
+    },
+    {
+      "aci": "Document.PmtRtr.TxInf.0.OrgnlTxRef.Cdtr.Pty.PstlAdr.PstBx",
+      "bulk2024": "AdditionalData.Receiver.Address.PostBox"
+    },
+    {
+      "aci": "Document.PmtRtr.TxInf.0.OrgnlTxRef.Cdtr.Pty.PstlAdr.PstCd",
+      "bulk2024": "AdditionalData.Receiver.Address.PstCd"
+    },
+    {
+      "aci": "Document.PmtRtr.TxInf.0.OrgnlTxRef.Cdtr.Pty.PstlAdr.Room",
+      "bulk2024": "AdditionalData.Receiver.Address.Room"
+    },
+    {
+      "aci": "Document.PmtRtr.TxInf.0.OrgnlTxRef.Cdtr.Pty.PstlAdr.StrtNm",
+      "bulk2024": "AdditionalData.Receiver.Address.StreetName"
+    },
+    {
+      "aci": "Document.PmtRtr.TxInf.0.OrgnlTxRef.Cdtr.Pty.PstlAdr.SubDept",
+      "bulk2024": "AdditionalData.Receiver.Address.SubDepartment"
+    },
+    {
+      "aci": "Document.PmtRtr.TxInf.0.OrgnlTxRef.Cdtr.Pty.PstlAdr.TwnLctnNm",
+      "bulk2024": "AdditionalData.Receiver.Address.TownLocation"
+    },
+    {
+      "aci": "Document.PmtRtr.TxInf.0.OrgnlTxRef.Cdtr.Pty.PstlAdr.TwnNm",
+      "bulk2024": "AdditionalData.Receiver.Address.TownName"
+    },
+    {
+      "aci": "Document.PmtRtr.TxInf.0.OrgnlTxRef.CdtrAcct.Ccy",
+      "bulk2024": "AdditionalData.Receiver.AccountCurrency"
+    },
+    {
+      "aci": "Document.PmtRtr.TxInf.0.OrgnlTxRef.CdtrAcct.Id.Othr.Id",
+      "bulk2024": "AdditionalData.Receiver.AccountNumber"
+    },
+    {
+      "aci": "Document.PmtRtr.TxInf.0.OrgnlTxRef.CdtrAcct.Id.Othr.SchmeNm.Prtry",
+      "bulk2024": "AdditionalData.Receiver.AccountSchemeName"
+    },
+    {
+      "aci": "Document.PmtRtr.TxInf.0.OrgnlTxRef.CdtrAcct.Nm",
+      "bulk2024": "AdditionalData.Receiver.AccountName"
+    },
+    {
+      "aci": "Document.PmtRtr.TxInf.0.OrgnlTxRef.CdtrAcct.Prxy.Id",
+      "bulk2024": "AdditionalData.Receiver.ProxyId"
+    },
+    {
+      "aci": "Document.PmtRtr.TxInf.0.OrgnlTxRef.CdtrAcct.Prxy.Tp.Cd",
+      "bulk2024": "AdditionalData.Receiver.ProxyType"
+    },
+    {
+      "aci": "Document.PmtRtr.TxInf.0.OrgnlTxRef.CdtrAgt.BrnchId.Id",
+      "bulk2024": "AdditionalData.CreditorAgent.BranchId"
+    },
+    {
+      "aci": "Document.PmtRtr.TxInf.0.OrgnlTxRef.CdtrAgt.FinInstnId.BICFI",
+      "bulk2024": "AdditionalData.CreditorAgent.BicCode"
+    },
+    {
+      "aci": "Document.PmtRtr.TxInf.0.OrgnlTxRef.CdtrAgt.FinInstnId.ClrSysMmbId.ClrSysId.Cd",
+      "bulk2024": "AdditionalData.CreditorAgent.ClearingSystem"
+    },
+    {
+      "aci": "Document.PmtRtr.TxInf.0.OrgnlTxRef.CdtrAgt.FinInstnId.ClrSysMmbId.MmbId",
+      "bulk2024": "DestinationId"
+    },
+    {
+      "aci": "Document.PmtRtr.TxInf.0.OrgnlTxRef.CdtrAgt.FinInstnId.Nm",
+      "bulk2024": "AdditionalData.CreditorAgent.Name"
+    },
+    {
+      "aci": "Document.PmtRtr.TxInf.0.OrgnlTxRef.CdtrAgt.FinInstnId.PstlAdr.AdrLine",
+      "bulk2024": "AdditionalData.CreditorAgent.Address.AddressLine"
+    },
+    {
+      "aci": "Document.PmtRtr.TxInf.0.OrgnlTxRef.CdtrAgt.FinInstnId.PstlAdr.AdrTp.Cd",
+      "bulk2024": "AdditionalData.CreditorAgent.Address.Type"
+    },
+    {
+      "aci": "Document.PmtRtr.TxInf.0.OrgnlTxRef.CdtrAgt.FinInstnId.PstlAdr.BldgNb",
+      "bulk2024": "AdditionalData.CreditorAgent.Address.BuildingNumber"
+    },
+    {
+      "aci": "Document.PmtRtr.TxInf.0.OrgnlTxRef.CdtrAgt.FinInstnId.PstlAdr.BldgNm",
+      "bulk2024": "AdditionalData.CreditorAgent.Address.BuildingName"
+    },
+    {
+      "aci": "Document.PmtRtr.TxInf.0.OrgnlTxRef.CdtrAgt.FinInstnId.PstlAdr.Ctry",
+      "bulk2024": "AdditionalData.CreditorAgent.Address.Country"
+    },
+    {
+      "aci": "Document.PmtRtr.TxInf.0.OrgnlTxRef.CdtrAgt.FinInstnId.PstlAdr.CtrySubDvsn",
+      "bulk2024": "AdditionalData.CreditorAgent.Address.SubCountryDiv"
+    },
+    {
+      "aci": "Document.PmtRtr.TxInf.0.OrgnlTxRef.CdtrAgt.FinInstnId.PstlAdr.Dept",
+      "bulk2024": "AdditionalData.CreditorAgent.Address.Department"
+    },
+    {
+      "aci": "Document.PmtRtr.TxInf.0.OrgnlTxRef.CdtrAgt.FinInstnId.PstlAdr.DstrctNm",
+      "bulk2024": "AdditionalData.CreditorAgent.Address.District"
+    },
+    {
+      "aci": "Document.PmtRtr.TxInf.0.OrgnlTxRef.CdtrAgt.FinInstnId.PstlAdr.Flr",
+      "bulk2024": "AdditionalData.CreditorAgent.Address.Floor"
+    },
+    {
+      "aci": "Document.PmtRtr.TxInf.0.OrgnlTxRef.CdtrAgt.FinInstnId.PstlAdr.PstBx",
+      "bulk2024": "AdditionalData.CreditorAgent.Address.PostBox"
+    },
+    {
+      "aci": "Document.PmtRtr.TxInf.0.OrgnlTxRef.CdtrAgt.FinInstnId.PstlAdr.PstCd",
+      "bulk2024": "AdditionalData.CreditorAgent.Address.PstCd"
+    },
+    {
+      "aci": "Document.PmtRtr.TxInf.0.OrgnlTxRef.CdtrAgt.FinInstnId.PstlAdr.Room",
+      "bulk2024": "AdditionalData.CreditorAgent.Address.Room"
+    },
+    {
+      "aci": "Document.PmtRtr.TxInf.0.OrgnlTxRef.CdtrAgt.FinInstnId.PstlAdr.StrtNm",
+      "bulk2024": "AdditionalData.CreditorAgent.Address.StreetName"
+    },
+    {
+      "aci": "Document.PmtRtr.TxInf.0.OrgnlTxRef.CdtrAgt.FinInstnId.PstlAdr.SubDept",
+      "bulk2024": "AdditionalData.CreditorAgent.Address.SubDepartment"
+    },
+    {
+      "aci": "Document.PmtRtr.TxInf.0.OrgnlTxRef.CdtrAgt.FinInstnId.PstlAdr.TwnLctnNm",
+      "bulk2024": "AdditionalData.CreditorAgent.Address.TownLocation"
+    },
+    {
+      "aci": "Document.PmtRtr.TxInf.0.OrgnlTxRef.CdtrAgt.FinInstnId.PstlAdr.TwnNm",
+      "bulk2024": "AdditionalData.CreditorAgent.Address.TownName"
+    },
+    {
+      "aci": "Document.PmtRtr.TxInf.0.OrgnlTxRef.Dbtr.Pty.Id.OrgId.Othr.Id",
+      "bulk2024": "AdditionalData.Sender.Org.Id"
+    },
+    {
+      "aci": "Document.PmtRtr.TxInf.0.OrgnlTxRef.Dbtr.Pty.Id.OrgId.Othr.SchmeNm.Cd",
+      "bulk2024": "AdditionalData.Sender.Org.SchemeName"
+    },
+    {
+      "aci": "Document.PmtRtr.TxInf.0.OrgnlTxRef.Dbtr.Pty.Id.PrvtId.Othr.Id",
+      "bulk2024": "AdditionalData.Sender.Private.Id"
+    },
+    {
+      "aci": "Document.PmtRtr.TxInf.0.OrgnlTxRef.Dbtr.Pty.Id.PrvtId.Othr.SchmeNm.Cd",
+      "bulk2024": "AdditionalData.Sender.Private.SchemeName"
+    },
+    {
+      "aci": "Document.PmtRtr.TxInf.0.OrgnlTxRef.Dbtr.Pty.Nm",
+      "bulk2024": "AdditionalData.Sender.Name"
+    },
+    {
+      "aci": "Document.PmtRtr.TxInf.0.OrgnlTxRef.Dbtr.Pty.PstlAdr.AdrLine",
+      "bulk2024": "AdditionalData.Sender.Address.AddressLine"
+    },
+    {
+      "aci": "Document.PmtRtr.TxInf.0.OrgnlTxRef.Dbtr.Pty.PstlAdr.AdrTp.Cd",
+      "bulk2024": "AdditionalData.Sender.Address.Type"
+    },
+    {
+      "aci": "Document.PmtRtr.TxInf.0.OrgnlTxRef.Dbtr.Pty.PstlAdr.BldgNb",
+      "bulk2024": "AdditionalData.Sender.Address.StreetNumber"
+    },
+    {
+      "aci": "Document.PmtRtr.TxInf.0.OrgnlTxRef.Dbtr.Pty.PstlAdr.BldgNm",
+      "bulk2024": "AdditionalData.Sender.Address.BuildingName"
+    },
+    {
+      "aci": "Document.PmtRtr.TxInf.0.OrgnlTxRef.Dbtr.Pty.PstlAdr.Ctry",
+      "bulk2024": "AdditionalData.Sender.Address.Country"
+    },
+    {
+      "aci": "Document.PmtRtr.TxInf.0.OrgnlTxRef.Dbtr.Pty.PstlAdr.CtrySubDvsn",
+      "bulk2024": "AdditionalData.Sender.Address.SubCountryDiv"
+    },
+    {
+      "aci": "Document.PmtRtr.TxInf.0.OrgnlTxRef.Dbtr.Pty.PstlAdr.Dept",
+      "bulk2024": "AdditionalData.Sender.Address.Department"
+    },
+    {
+      "aci": "Document.PmtRtr.TxInf.0.OrgnlTxRef.Dbtr.Pty.PstlAdr.DstrctNm",
+      "bulk2024": "AdditionalData.Sender.Address.District"
+    },
+    {
+      "aci": "Document.PmtRtr.TxInf.0.OrgnlTxRef.Dbtr.Pty.PstlAdr.Flr",
+      "bulk2024": "AdditionalData.Sender.Address.Floor"
+    },
+    {
+      "aci": "Document.PmtRtr.TxInf.0.OrgnlTxRef.Dbtr.Pty.PstlAdr.PstBx",
+      "bulk2024": "AdditionalData.Sender.Address.PostBox"
+    },
+    {
+      "aci": "Document.PmtRtr.TxInf.0.OrgnlTxRef.Dbtr.Pty.PstlAdr.PstCd",
+      "bulk2024": "AdditionalData.Sender.Address.PstCd"
+    },
+    {
+      "aci": "Document.PmtRtr.TxInf.0.OrgnlTxRef.Dbtr.Pty.PstlAdr.Room",
+      "bulk2024": "AdditionalData.Sender.Address.Room"
+    },
+    {
+      "aci": "Document.PmtRtr.TxInf.0.OrgnlTxRef.Dbtr.Pty.PstlAdr.StrtNm",
+      "bulk2024": "AdditionalData.Sender.Address.StreetName"
+    },
+    {
+      "aci": "Document.PmtRtr.TxInf.0.OrgnlTxRef.Dbtr.Pty.PstlAdr.SubDept",
+      "bulk2024": "AdditionalData.Sender.Address.SubDepartment"
+    },
+    {
+      "aci": "Document.PmtRtr.TxInf.0.OrgnlTxRef.Dbtr.Pty.PstlAdr.TwnLctnNm",
+      "bulk2024": "AdditionalData.Sender.Address.TownLocation"
+    },
+    {
+      "aci": "Document.PmtRtr.TxInf.0.OrgnlTxRef.Dbtr.Pty.PstlAdr.TwnNm",
+      "bulk2024": "AdditionalData.Sender.Address.TownName"
+    },
+    {
+      "aci": "Document.PmtRtr.TxInf.0.OrgnlTxRef.DbtrAcct.Ccy",
+      "bulk2024": "AdditionalData.Sender.AccountCurrency"
+    },
+    {
+      "aci": "Document.PmtRtr.TxInf.0.OrgnlTxRef.DbtrAcct.Id.Othr.Id",
+      "bulk2024": "AdditionalData.Sender.AccountNumber"
+    },
+    {
+      "aci": "Document.PmtRtr.TxInf.0.OrgnlTxRef.DbtrAcct.Id.Othr.SchmeNm.Prtry",
+      "bulk2024": "AdditionalData.Sender.AccountSchemeName"
+    },
+    {
+      "aci": "Document.PmtRtr.TxInf.0.OrgnlTxRef.DbtrAcct.Nm",
+      "bulk2024": "AdditionalData.Sender.AccountName"
+    },
+    {
+      "aci": "Document.PmtRtr.TxInf.0.OrgnlTxRef.DbtrAcct.Prxy.Id",
+      "bulk2024": "AdditionalData.Sender.ProxyId"
+    },
+    {
+      "aci": "Document.PmtRtr.TxInf.0.OrgnlTxRef.DbtrAcct.Prxy.Tp.Cd",
+      "bulk2024": "AdditionalData.Sender.ProxyType"
+    },
+    {
+      "aci": "Document.PmtRtr.TxInf.0.OrgnlTxRef.DbtrAgt.BrnchId.Id",
+      "bulk2024": "AdditionalData.DebtorAgent.BranchId"
+    },
+    {
+      "aci": "Document.PmtRtr.TxInf.0.OrgnlTxRef.DbtrAgt.FinInstnId.BICFI",
+      "bulk2024": "AdditionalData.DebtorAgent.BicCode"
+    },
+    {
+      "aci": "Document.PmtRtr.TxInf.0.OrgnlTxRef.DbtrAgt.FinInstnId.ClrSysMmbId.ClrSysId.Cd",
+      "bulk2024": "AdditionalData.DebtorAgent.ClearingSystem"
+    },
+    {
+      "aci": "Document.PmtRtr.TxInf.0.OrgnlTxRef.DbtrAgt.FinInstnId.ClrSysMmbId.MmbId",
+      "bulk2024": "AdditionalData.DebtorAgent.MemberId"
+    },
+    {
+      "aci": "Document.PmtRtr.TxInf.0.OrgnlTxRef.DbtrAgt.FinInstnId.Nm",
+      "bulk2024": "AdditionalData.DebtorAgent.Name"
+    },
+    {
+      "aci": "Document.PmtRtr.TxInf.0.OrgnlTxRef.DbtrAgt.FinInstnId.PstlAdr.AdrLine",
+      "bulk2024": "AdditionalData.DebtorAgent.Address.AddressLine"
+    },
+    {
+      "aci": "Document.PmtRtr.TxInf.0.OrgnlTxRef.DbtrAgt.FinInstnId.PstlAdr.AdrTp.Cd",
+      "bulk2024": "AdditionalData.DebtorAgent.Address.Type"
+    },
+    {
+      "aci": "Document.PmtRtr.TxInf.0.OrgnlTxRef.DbtrAgt.FinInstnId.PstlAdr.BldgNb",
+      "bulk2024": "AdditionalData.DebtorAgent.Address.BuildingNumber"
+    },
+    {
+      "aci": "Document.PmtRtr.TxInf.0.OrgnlTxRef.DbtrAgt.FinInstnId.PstlAdr.BldgNm",
+      "bulk2024": "AdditionalData.DebtorAgent.Address.BuildingName"
+    },
+    {
+      "aci": "Document.PmtRtr.TxInf.0.OrgnlTxRef.DbtrAgt.FinInstnId.PstlAdr.Ctry",
+      "bulk2024": "AdditionalData.DebtorAgent.Address.Country"
+    },
+    {
+      "aci": "Document.PmtRtr.TxInf.0.OrgnlTxRef.DbtrAgt.FinInstnId.PstlAdr.CtrySubDvsn",
+      "bulk2024": "AdditionalData.DebtorAgent.Address.SubCountryDiv"
+    },
+    {
+      "aci": "Document.PmtRtr.TxInf.0.OrgnlTxRef.DbtrAgt.FinInstnId.PstlAdr.Dept",
+      "bulk2024": "AdditionalData.DebtorAgent.Address.Department"
+    },
+    {
+      "aci": "Document.PmtRtr.TxInf.0.OrgnlTxRef.DbtrAgt.FinInstnId.PstlAdr.DstrctNm",
+      "bulk2024": "AdditionalData.DebtorAgent.Address.District"
+    },
+    {
+      "aci": "Document.PmtRtr.TxInf.0.OrgnlTxRef.DbtrAgt.FinInstnId.PstlAdr.Flr",
+      "bulk2024": "AdditionalData.DebtorAgent.Address.Floor"
+    },
+    {
+      "aci": "Document.PmtRtr.TxInf.0.OrgnlTxRef.DbtrAgt.FinInstnId.PstlAdr.PstBx",
+      "bulk2024": "AdditionalData.DebtorAgent.Address.PostBox"
+    },
+    {
+      "aci": "Document.PmtRtr.TxInf.0.OrgnlTxRef.DbtrAgt.FinInstnId.PstlAdr.PstCd",
+      "bulk2024": "AdditionalData.DebtorAgent.Address.PstCd"
+    },
+    {
+      "aci": "Document.PmtRtr.TxInf.0.OrgnlTxRef.DbtrAgt.FinInstnId.PstlAdr.Room",
+      "bulk2024": "AdditionalData.DebtorAgent.Address.Room"
+    },
+    {
+      "aci": "Document.PmtRtr.TxInf.0.OrgnlTxRef.DbtrAgt.FinInstnId.PstlAdr.StrtNm",
+      "bulk2024": "AdditionalData.DebtorAgent.Address.StreetName"
+    },
+    {
+      "aci": "Document.PmtRtr.TxInf.0.OrgnlTxRef.DbtrAgt.FinInstnId.PstlAdr.SubDept",
+      "bulk2024": "AdditionalData.DebtorAgent.Address.SubDepartment"
+    },
+    {
+      "aci": "Document.PmtRtr.TxInf.0.OrgnlTxRef.DbtrAgt.FinInstnId.PstlAdr.TwnLctnNm",
+      "bulk2024": "AdditionalData.DebtorAgent.Address.TownLocation"
+    },
+    {
+      "aci": "Document.PmtRtr.TxInf.0.OrgnlTxRef.DbtrAgt.FinInstnId.PstlAdr.TwnNm",
+      "bulk2024": "AdditionalData.DebtorAgent.Address.TownName"
+    },
+    {
+      "aci": "Document.PmtRtr.TxInf.0.OrgnlTxRef.IntrBkSttlmAmt",
+      "bulk2024": "AdditionalData.OriginalAmount"
+    },
+    {
+      "aci": "Document.PmtRtr.TxInf.0.OrgnlTxRef.PmtTpInf.CtgyPurp.Cd",
+      "bulk2024": "AdditionalData.Purpose"
+    },
+    {
+      "aci": "Document.PmtRtr.TxInf.0.OrgnlTxRef.PmtTpInf.LclInstrm.Prtry",
+      "bulk2024": "AdditionalData.LocalInstrument"
+    },
+    {
+      "aci": "Document.PmtRtr.TxInf.0.OrgnlTxRef.PmtTpInf.SvcLvl.Cd",
+      "bulk2024": "AdditionalData.ServiceLevel"
+    },
+    {
+      "aci": "Document.PmtRtr.TxInf.0.OrgnlTxRef.Tax.Cdtr.TaxId",
+      "bulk2024": "AdditionalData.TaxInfo.ReceiverTaxId"
+    },
+    {
+      "aci": "Document.PmtRtr.TxInf.0.OrgnlTxRef.Tax.Dbtr.TaxId",
+      "bulk2024": "AdditionalData.TaxInfo.SenderTaxId"
+    },
+    {
+      "aci": "Document.PmtRtr.TxInf.0.OrgnlTxRef.Tax.Rcrd",
+      "bulk2024": "AdditionalData.TaxInfo.Records"
+    },
+    {
+      "aci": "Document.PmtRtr.TxInf.0.OrgnlTxRef.Tax.Rcrd.0.AddtlInf",
+      "bulk2024": "AdditionalInfo"
+    },
+    {
+      "aci": "Document.PmtRtr.TxInf.0.OrgnlTxRef.Tax.Rcrd.0.Ctgy",
+      "bulk2024": "Category"
+    },
+    {
+      "aci": "Document.PmtRtr.TxInf.0.OrgnlTxRef.Tax.Rcrd.0.CtgyDtls",
+      "bulk2024": "CategoryDetail"
+    },
+    {
+      "aci": "Document.PmtRtr.TxInf.0.OrgnlTxRef.Tax.Rcrd.0.FrmsCd",
+      "bulk2024": "FormCode"
+    },
+    {
+      "aci": "Document.PmtRtr.TxInf.0.OrgnlTxRef.Tax.Rcrd.0.TaxAmt.TaxblBaseAmt",
+      "bulk2024": "TaxAmount.AmountBeforeTax"
+    },
+    {
+      "aci": "Document.PmtRtr.TxInf.0.OrgnlTxRef.Tax.Rcrd.0.TaxAmt.TtlAmt",
+      "bulk2024": "TaxAmount.TaxAmount"
+    },
+    {
+      "aci": "Document.PmtRtr.TxInf.0.OrgnlTxRef.Tax.Rcrd.0.Tp",
+      "bulk2024": "Type"
+    },
+    {
+      "aci": "Document.PmtRtr.TxInf.0.OrgnlTxRef.Tax.TtlTaxAmt",
+      "bulk2024": "AdditionalData.TaxInfo.TotalTaxAmount"
+    },
+    {
+      "aci": "Document.PmtRtr.TxInf.0.OrgnlTxRef.Tax.TtlTaxblBaseAmt",
+      "bulk2024": "AdditionalData.TaxInfo.TotalAmountBeforeTax"
+    },
+    {
+      "aci": "Document.PmtRtr.TxInf.0.RtrRsnInf.AddtlInf",
+      "bulk2024": "AdditionalData.ReturnReasonInfo"
+    },
+    {
+      "aci": "Document.PmtRtr.TxInf.0.RtrRsnInf.Rsn.Cd",
+      "bulk2024": "AdditionalData.ReturnReason"
+    },
+    {
+      "aci": "Document.PmtRtr.TxInf.0.RtrdIntrBkSttlmAmt",
+      "bulk2024": "Amount"
+    }
+  ]

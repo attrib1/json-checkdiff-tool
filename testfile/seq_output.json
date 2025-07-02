@@ -1,0 +1,53 @@
+{
+  "isdiff": true,
+  "diff": [
+    {
+      "key": "[0].aa",
+      "type": "only_in_first",
+      "filename": "./test_seq1.json",
+      "value1": "1"
+    },
+    {
+      "key": "[0].bb",
+      "type": "only_in_first",
+      "filename": "./test_seq1.json",
+      "value1": "1"
+    },
+    {
+      "key": "[0].cc",
+      "type": "only_in_second",
+      "filename": "./test_seq2.json",
+      "value2": "2"
+    },
+    {
+      "key": "[0].dd",
+      "type": "only_in_second",
+      "filename": "./test_seq2.json",
+      "value2": "2"
+    },
+    {
+      "key": "[1].cc",
+      "type": "only_in_first",
+      "filename": "./test_seq1.json",
+      "value1": "2"
+    },
+    {
+      "key": "[1].dd",
+      "type": "only_in_first",
+      "filename": "./test_seq1.json",
+      "value1": "2"
+    },
+    {
+      "key": "[1].aa",
+      "type": "only_in_second",
+      "filename": "./test_seq2.json",
+      "value2": "1"
+    },
+    {
+      "key": "[1].bb",
+      "type": "only_in_second",
+      "filename": "./test_seq2.json",
+      "value2": "1"
+    }
+  ]
+}
